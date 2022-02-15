@@ -1,7 +1,7 @@
 <template>
   <div class="hero container">
     <div class="text-container">
-      <h1 class="header">Living indoors made healthy</h1>
+      <h1 class="header">For healthier Indoor Living</h1>
       <p class="snippet">
         An app that tunes temperature and humidity levels for a healthier indoor
         life
@@ -13,14 +13,15 @@
 </template>
 
 <script>
+import LargeCardDisplay from "./LargeCardDisplay.vue";
 export default {
+  components: { LargeCardDisplay },
   name: "Hero",
 };
 </script>
 
 <style scoped>
 .hero {
-  height: 50vh;
   position: relative;
   display: flex;
   padding: 5rem 0;
